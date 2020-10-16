@@ -1,0 +1,54 @@
+#tablePerfiles thead tr td,
+#tablePerfiles tbody tr td {
+    vertical-align: middle !important;
+}
+
+
+/*-- tabla --*/
+
+#tablePerfiles thead tr td {
+    background: linear-gradient(to bottom, #8fba5c 0%, #a5dc64 100%) !important;
+    font-weight: bold;
+    color: rgb(33 37 41);
+    vertical-align: middle;
+    font-size: 12px !important;
+    font-weight: normal;
+    line-height: 1.2;
+    border-right: none;
+}
+
+#tablePerfiles tr td,
+#tablePerfiles tr th {
+    vertical-align: middle;
+    padding: 6px;
+}
+
+#tablePerfiles .even {
+    background-color: #F2F2F2;
+}
+
+#tablePerfiles .odd {
+    background-color: #FFFFFF;
+}
+
+#tablePerfiles {
+    width: 100%;
+    padding: 15px 10px 13px;
+    border-bottom: 1px solid #dee2e6;
+    /* background: #ececec;
+    border-radius: 10px;
+    border-collapse: separate !important; */
+}
+
+#tablePerfiles tbody tr {
+    width: 100%;
+}
+
+#tablePerfiles tbody::-webkit-scrollbar {
+    width: 8px;
+    /* TamaÃ±o del scroll en vertical */
+    height: 8px;
+    /* TamaÃ±o del scroll en horizontal */
+    display: none;
+    /* Ocultar scroll */
+}

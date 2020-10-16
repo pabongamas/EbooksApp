@@ -1,0 +1,115 @@
+#tableMaterias thead tr td,
+#tableMaterias tbody tr td {
+    vertical-align: middle !important;
+}
+
+
+/*-- tabla --*/
+
+#tableMaterias thead tr td {
+    background: linear-gradient(to bottom, #8fba5c 0%, #a5dc64 100%) !important;
+    font-weight: bold;
+    color: rgb(33 37 41);
+    vertical-align: middle;
+    font-size: 12px !important;
+    font-weight: normal;
+    line-height: 1.2;
+    border-right: none;
+}
+
+#tableMaterias tr td,
+#tableMaterias tr th {
+    vertical-align: middle;
+    padding: 6px;
+}
+
+#tableMaterias .even {
+    background-color: #F2F2F2;
+}
+
+#tableMaterias .odd {
+    background-color: #FFFFFF;
+}
+
+#tableMaterias {
+    width: 100%;
+    padding: 15px 10px 13px;
+    border-bottom: 1px solid #dee2e6;
+    /* background: #ececec;
+    border-radius: 10px;
+    border-collapse: separate !important; */
+}
+
+#tableMaterias tbody tr {
+    width: 100%;
+}
+
+#tableMaterias tbody::-webkit-scrollbar {
+    width: 8px;
+    /* TamaÃ±o del scroll en vertical */
+    height: 8px;
+    /* TamaÃ±o del scroll en horizontal */
+    display: none;
+    /* Ocultar scroll */
+}
+
+#selectCursosMateria {
+    border: 1px solid #ccc;
+    border-radius: 0px;
+    height: 37px;
+    padding: 4px 12px 6px 10px !important;
+    width: 100%;
+    color: #4D4D4D !important;
+    background-size: 17px !important;
+    background-color: #FFFFFF !important;
+    line-height: 1.2;
+}
+
+
+/* Talbe Asignacion */
+
+#tableAsignacion thead tr td,
+#tableAsignacion tbody tr td {
+    vertical-align: middle !important;
+}
+
+#tableAsignacion thead tr td {
+    background: linear-gradient(to bottom, #8fba5c 0%, #a5dc64 100%) !important;
+    font-weight: bold;
+    color: rgb(33 37 41);
+    vertical-align: middle;
+    font-size: 12px !important;
+    font-weight: normal;
+    line-height: 1.2;
+    border-right: none;
+}
+
+#tableAsignacion tr td,
+#tableAsignacion tr th {
+    vertical-align: middle;
+    padding: 6px;
+}
+
+#tableAsignacion .even {
+    background-color: #F2F2F2;
+}
+
+#tableAsignacion .odd {
+    background-color: #FFFFFF;
+}
+
+#tableAsignacion {
+    width: 100%;
+    padding: 15px 10px 13px;
+    border-bottom: 1px solid #dee2e6;
+}
+
+#tableAsignacion tbody tr {
+    width: 100%;
+}
+
+#tableAsignacion tbody::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+    display: none;
+}

@@ -1,0 +1,155 @@
+#tableCursos thead tr td,
+#tableCursos tbody tr td {
+    vertical-align: middle !important;
+}
+
+
+/*-- tabla --*/
+
+#tableCursos thead tr td {
+    background: linear-gradient(to bottom, #8fba5c 0%, #a5dc64 100%) !important;
+    font-weight: bold;
+    color: rgb(33 37 41);
+    vertical-align: middle;
+    font-size: 12px !important;
+    font-weight: normal;
+    line-height: 1.2;
+    border-right: none;
+}
+
+#tableCursos tr td,
+#tableCursos tr th {
+    vertical-align: middle;
+    padding: 6px;
+}
+
+#tableCursos .even {
+    background-color: #F2F2F2;
+}
+
+#tableCursos .odd {
+    background-color: #FFFFFF;
+}
+
+#tableCursos {
+    width: 100%;
+    padding: 15px 10px 13px;
+    border-bottom: 1px solid #dee2e6;
+    /* background: #ececec;
+    border-radius: 10px;
+    border-collapse: separate !important; */
+}
+
+#tableCursos tbody tr {
+    width: 100%;
+}
+
+#tableCursos tbody::-webkit-scrollbar {
+    width: 8px;
+    /* TamaÃ±o del scroll en vertical */
+    height: 8px;
+    /* TamaÃ±o del scroll en horizontal */
+    display: none;
+    /* Ocultar scroll */
+}
+
+
+/* Talbe materias */
+
+#tableMaterias thead tr td,
+#tableMaterias tbody tr td {
+    vertical-align: middle !important;
+}
+
+#tableMaterias thead tr td {
+    background: linear-gradient(to bottom, #8fba5c 0%, #a5dc64 100%) !important;
+    font-weight: bold;
+    color: rgb(33 37 41);
+    vertical-align: middle;
+    font-size: 12px !important;
+    font-weight: normal;
+    line-height: 1.2;
+    border-right: none;
+}
+
+#tableMaterias tr td,
+#tableMaterias tr th {
+    vertical-align: middle;
+    padding: 6px;
+}
+
+#tableMaterias .even {
+    background-color: #F2F2F2;
+}
+
+#tableMaterias .odd {
+    background-color: #FFFFFF;
+}
+
+#tableMaterias {
+    width: 100%;
+    padding: 15px 10px 13px;
+    border-bottom: 1px solid #dee2e6;
+}
+
+#tableMaterias tbody tr {
+    width: 100%;
+}
+
+#tableMaterias tbody::-webkit-scrollbar {
+    width: 8px;
+    /* TamaÃ±o del scroll en vertical */
+    height: 8px;
+    /* TamaÃ±o del scroll en horizontal */
+    display: none;
+    /* Ocultar scroll */
+}
+
+
+/* Talbe Asignacion */
+
+#tableAsignacionMaterias thead tr td,
+#tableAsignacionMaterias tbody tr td {
+    vertical-align: middle !important;
+}
+
+#tableAsignacionMaterias thead tr td {
+    background: linear-gradient(to bottom, #8fba5c 0%, #a5dc64 100%) !important;
+    font-weight: bold;
+    color: rgb(33 37 41);
+    vertical-align: middle;
+    font-size: 12px !important;
+    font-weight: normal;
+    line-height: 1.2;
+    border-right: none;
+}
+
+#tableAsignacionMaterias tr td,
+#tableAsignacionMaterias tr th {
+    vertical-align: middle;
+    padding: 6px;
+}
+
+#tableAsignacionMaterias .even {
+    background-color: #F2F2F2;
+}
+
+#tableAsignacionMaterias .odd {
+    background-color: #FFFFFF;
+}
+
+#tableAsignacionMaterias {
+    width: 100%;
+    padding: 15px 10px 13px;
+    border-bottom: 1px solid #dee2e6;
+}
+
+#tableAsignacionMaterias tbody tr {
+    width: 100%;
+}
+
+#tableAsignacionMaterias tbody::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+    display: none;
+}

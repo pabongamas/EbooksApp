@@ -1,0 +1,34 @@
+.padPreguntas {
+    padding: 5px !important;
+    margin-top: 10px;
+    margin-left: 35px;
+}
+
+.checkRta {
+    margin-top: 18px;
+    width: 15%;
+}
+
+.btn {
+    font-size: 12px !important;
+}
+
+.textRta {
+    margin-top: 8px;
+    margin-bottom: 0px;
+}
+
+.eliminarCont {
+    margin-top: 0px;
+    width: 15%;
+    padding-left: 19px;
+    height: 30px;
+    cursor: pointer;
+    font-size: 20px;
+    color: #e16262;
+}
+
+#contenedorContenidoGeneral {
+    overflow: auto;
+    height: calc(100vh - 339px);
+}
